@@ -71,6 +71,10 @@
     .section5 h1{
         font-size: 30px;
     }
+    .col2 input{
+        width: 200px;
+        
+    }
     /*****************footer********************/
     .footer{
         display: flex;
