@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ /************* navbar **************/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252B42;
+    color: white;
+}
+.liste1 ul{
+    display: flex;
+}
+.liste1 li{
+   list-style-type: none;
+   padding: 20px;
+}
+.liste2 ul{
+    display: flex;
+}
+.liste2 li{
+   list-style-type: none;
+   padding: 15px;
+}
+.sec1 p{
+    font-size: 30px;
+}
+#blue{
+    background-color: #23A6F0;
+    border-radius: 10px;
+}
+/************************ section1 *******************/
+
+.section1{
+    background-color: #252B42;
+    height: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.section1 h1{
+    font-size: 60px;
+    text-align: center;
+}
+.section1 h5{
+    color: #23A6F0;
+}
+.section1 h2{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(217, 211, 211);
+}
+.boutons{
+    display: flex;
+    gap: 20px;
+}
+.boutons .beu{
+    background-color: #23A6F0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.boutons .ban{
+    border: 2px solid #23A6F0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/**************section2*****************/
+
+.section2{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.coté .progress{
+    background-color: red;
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+}
+.section2 h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(42, 40, 40);
+}
+.section2 h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(104, 98, 98);
+}
+.learn p{
+    color: #23A6F0;
+}
+
+ /*******************section3**************************/
+.section3 h5{
+    color: #23A6F0;
+}
+.section3 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section3 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+}
+.écrit{
+    margin-left: 40px;
+}
+.tofs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ /***********************section4***********************/
+
+.section4 h5{
+    color: #23A6F0;
+}
+.section4 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section4 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+}
+.écrit{
+    margin-left: 40px;
+}
+.tofs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+  /******************section5***********************/
+
+.section5 h5{
+    color: #23A6F0;
+}
+.section5 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section5 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+    text-align: center;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col2{
+    display: flex;
+}
+.col2 input{
+    width: 300px;
+    height: 30px;
+    background-color: #d3e7f2;
+    border: 1px solid #878b8d;
+    border-radius: 2px;
+}
+.col2 button{
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    border: 1px solid #878b8d;
+    background-color: #23A6F0;
+    color: white;
+}
+/********************* footer ********************/
+.footer{
+    background-color: #252B42;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.fo p{
+    padding: 10px;
+}
+.foot1 p{
+    padding: 10px;
+}
+ .un .foot1{
+    margin-top: 105px;
+}
+.un{
+    display: flex;
+}
+.deux{
+    display: flex;
+}
+.foot2{
+    padding: 100px;
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
